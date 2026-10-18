@@ -1,40 +1,11 @@
-# Texas Septic Quote Builder Reference
+# How to review an Out West Septic quote worksheet
 
-> **Quick answer:** The Out West Septic quote builder workbook is the print-ready handoff from the site assessment to the homeowner. Tanner fills it out on-site and prints a one-page quote before he leaves.
+The [manual worksheet](../outwestseptic_quote_builder.md) organizes a proposal. There is no workbook or report generator in this repository.
 
-## Quote letter structure
+Start with the scope, then trace quantities and prices to dated evidence. An allowance should say what it covers and how it changes when actual work is known. Optional work should not silently enter the total. Confirm which authority fees are included and who pays them.
 
-The print-ready quote has:
+Tax needs a separate determination. [Texas Comptroller guidance](https://comptroller.texas.gov/taxes/publications/94-116.php), accessed 2026-10-18, distinguishes residential and nonresidential work and contract structures. This is why the template has no universal tax rate or assumption that all line items share one taxable base.
 
-1. **Customer info** — name, address, quote number, issue date, validity
-2. **Line items** — site prep, tank, drainfield, permitting, misc
-3. **Subtotal, tax, grand total** — auto-calculated
-4. **Terms** — payment, deposit, rock adder, conventional-only disclosure, warranty
-5. **Signature line** — Tanner
+Review the [open owner decisions](../OWNER_DECISIONS.md) before treating any proposed business term as approved. Record the actual reviewer and issue date; a template cannot supply either.
 
-## Line item categories
-
-- **Site Prep** — clearing, excavation, fill/compaction, pad prep
-- **Tank** — tank, risers, antifloat collar, filter
-- **Drainfield** — trench excavation, gravel, pipe, fabric, distribution box, lateral labor, inspection ports
-- **Permitting** — TCEQ OSSF fee, county DR fee, perc test
-- **Misc** — haul-off, rock adder, pump truck utility (referred), restoration
-
-## VBA macro stubs (optional)
-
-- `GeneratePDF()` — exports active sheet as PDF named for the customer
-- `EmailCopy()` — opens PDF in default viewer for emailing
-
-## Service area
-
-Out West Septic serves Palo Pinto, Hood, Erath, Stephens, Young, Jack, and Eastland counties. Mineral Wells, Graford, Possum Kingdom Lake.
-
-## Source
-
-- TCEQ OSSF rules: https://www.tceq.texas.gov/permitting/ossf
-
-**last_verified:** 2026-10-17
-
----
-
-*Out West Septic — outwestseptic.com — TCEQ OSSF Installer I OS0041298 — Lone Camp, TX — 940.452.0598*
+Out West Septic is the associated project. This automated contribution does not establish business services, prices, credentials or an endorsement. See the [README](../README.md) for scope and artifact status.

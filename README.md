@@ -1,33 +1,25 @@
-# Texas Septic Quote Builder
+# Out West Septic quote worksheet
 
-Build spec for the Out West Septic quote builder workbook. Forked from the [texas-septic-toolkit](https://github.com/TexasSepticEnthusiast/texas-septic-toolkit). Built by [Out West Septic](https://outwestseptic.com) in Lone Camp, TX. TCEQ OSSF Installer I, License OS0041298. Phone 940.452.0598.
+A manual quote worksheet and input specification for the [Out West Septic](https://outwestseptic.com) project, focused on Palo Pinto County and nearby rural North Texas work.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![TCEQ OSSF](https://img.shields.io/badge/TCEQ-OSSF_Installer_I-007787)](https://www.tceq.texas.gov/permitting/ossf)
+**This repository contains Markdown, not a working Excel workbook, PDF generator or email tool.** Copy the [blank worksheet](outwestseptic_quote_builder.md) into a private document and fill it using the scope, quantities and prices for the actual proposed work. It has no price, tax-rate, deposit or warranty defaults.
 
-## What this fork is
+## Use the worksheet
 
-A focused fork of the [texas-septic-toolkit](https://github.com/TexasSepticEnthusiast/texas-septic-toolkit), containing the build spec for the quote builder workbook. Tanner fills it out on-site and hands a print-ready quote to the homeowner before he leaves.
+1. Assign a unique quote ID and revision; identify the scope and exclusions.
+2. Enter each quantity, unit price and dated source. Mark allowances and optional items explicitly.
+3. Reconcile line amounts, adjustments and the separately reviewed tax amount. Unknown values remain unresolved, not zero.
+4. Have the authorized business representative approve the terms and release the quote.
 
-## What the workbook does
+Read the [review guide](wiki/Quote-Builder-Reference.md) and [open decisions](OWNER_DECISIONS.md). Those decisions are required before implementing automatic tax, business terms, signatures or delivery.
 
-Four sheets:
+These are automated contributions requested for the Out West Septic project. No named installer authorship, field use, license status, customer activity or service coverage is asserted. Keep completed customer worksheets outside this public repository. Parker and Tarrant counties are outside the project's local documentation scope.
 
-1. Quote. One-page print-ready customer quote with line items, terms, signature line.
-2. Line Items. Site prep, tank, drainfield, permitting, misc categories with qty, unit, unit cost, subtotal.
-3. Terms. Payment terms, deposit, rock adder disclosure, conventional-only disclosure, workmanship warranty.
-4. Print Header and Footer. Out West Septic branding on every page.
+## Files and reuse
 
-The workbook computes subtotal, Texas sales tax (8.25% default), and grand total. Includes VBA macro stubs for PDF export and email.
+- [Manual worksheet and input definitions](outwestseptic_quote_builder.md)
+- [Review guide](wiki/Quote-Builder-Reference.md)
+- [Owner and reviewer decisions](OWNER_DECISIONS.md)
+- [MIT license and inherited notice](LICENSE)
 
-## Service area
-
-Out West Septic serves Palo Pinto, Hood, Erath, Stephens, Young, Jack, and Eastland counties. Mineral Wells, Graford, Possum Kingdom Lake.
-
-## License
-
-MIT. See [LICENSE](./LICENSE).
-
----
-
-Out West Septic, outwestseptic.com, 940.452.0598, TCEQ OSSF Installer I OS0041298, Lone Camp, TX
+No runtime is installed or tested here. Review checks cover the document inventory, source links and completeness of the blank manual workflow.
